@@ -1,0 +1,5 @@
+.idea
+errors.log
+public/images
+composer
+config_smtp.php

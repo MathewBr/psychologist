@@ -1,0 +1,60 @@
+$font-stack:    Helvetica, sans-serif
+$currentColor: red
+
+header
+  .flex-box
+    display: flex
+    justify-content: space-around
+    align-items: center
+    //border: solid thin $currentColor
+
+    >div
+      //border: solid thin green
+      //flex: 1
+
+  #logo
+    img
+      height: 5rem
+      width: auto
+
+nav
+  border: solid thin red
+  //position: relative
+  //padding: 0
+  ul
+    display: flex
+    //flex-wrap: wrap
+    padding: 0
+    //margin: 0
+    //justify-content: space-around
+    border: dotted thin rebeccapurple
+    //position: absolute
+    overflow: hidden
+    z-index: 999
+    ul
+      //display: none
+      //transform: translateY(-100%)
+      flex-wrap: wrap
+      //position: absolute
+      background-color: #FF3366
+  li
+    list-style-type: none
+    border: dashed thin yellowgreen
+    position: relative
+  a
+    display: block
+    text-decoration: none
+    border: solid thin cadetblue
+    padding: 0.2rem 1rem
+    border-radius: 0.5rem
+    background-color: yellowgreen
+    //margin: 5px
+
+@media screen and (max-width: 1400px)
+@media screen and (max-width: 1200px)
+@media screen and (max-width: 992px)
+@media screen and (max-width: 786px)
+  nav
+    >ul
+      flex-direction: column
+@media screen and (max-width: 576px)

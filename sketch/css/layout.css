@@ -1,0 +1,45 @@
+header .flex-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header #logo img {
+  height: 5rem;
+  width: auto;
+}
+
+nav {
+  border: solid thin red;
+}
+nav ul {
+  display: flex;
+  padding: 0;
+  border: dotted thin rebeccapurple;
+  overflow: hidden;
+  z-index: 999;
+}
+nav ul ul {
+  flex-wrap: wrap;
+  background-color: #FF3366;
+}
+nav li {
+  list-style-type: none;
+  border: dashed thin yellowgreen;
+  position: relative;
+}
+nav a {
+  display: block;
+  text-decoration: none;
+  border: solid thin cadetblue;
+  padding: 0.2rem 1rem;
+  border-radius: 0.5rem;
+  background-color: yellowgreen;
+}
+
+@media screen and (max-width: 786px) {
+  nav > ul {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=layout.css.map */
