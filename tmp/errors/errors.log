@@ -1,0 +1,1389 @@
+[2022-11-01 23:42:43] Текст ошибки: Страница нет | Файл: C:\OpenServer\domains\metrology\public\index.php |
+         Строка: 7
+===============
+[2022-11-01 23:43:48] Текст ошибки: Страница нет | Файл: C:\OpenServer\domains\metrology\public\index.php |
+         Строка: 7
+===============
+[2022-11-01 23:43:49] Текст ошибки: Страница нет | Файл: C:\OpenServer\domains\metrology\public\index.php |
+         Строка: 7
+===============
+[2022-11-01 23:44:31] Текст ошибки: Страница нет | Файл: C:\OpenServer\domains\metrology\public\index.php |
+         Строка: 7
+===============
+[2022-11-02 18:07:10] Текст ошибки: Страница нет | Файл: C:\OpenServer\domains\metrology\public\index.php |
+         Строка: 7
+===============
+[2022-11-02 18:07:10] Текст ошибки: Страница нет | Файл: C:\OpenServer\domains\metrology\public\index.php |
+         Строка: 7
+===============
+[2022-11-02 18:07:31] Текст ошибки: Страница нет | Файл: C:\OpenServer\domains\metrology\public\index.php |
+         Строка: 7
+===============
+[2022-11-02 18:07:32] Текст ошибки: Страница нет | Файл: C:\OpenServer\domains\metrology\public\index.php |
+         Строка: 7
+===============
+[2022-11-02 21:30:33] Текст ошибки: Too few arguments to function core\Router::__construct(), 0 passed in C:\OpenServer\domains\metrology\vendor\own\core\TSingletone.php on line 11 and exactly 1 expected | Файл: C:\OpenServer\domains\metrology\vendor\own\core\Router.php |
+         Строка: 10
+===============
+[2022-11-02 22:01:09] Текст ошибки: syntax error, unexpected '[', expecting variable (T_VARIABLE) | Файл: C:\OpenServer\domains\metrology\vendor\own\core\Router.php |
+         Строка: 40
+===============
+[2022-11-02 22:02:27] Текст ошибки: Too few arguments to function core\Router::pullRules(), 0 passed in C:\OpenServer\domains\metrology\vendor\own\core\Router.php on line 11 and exactly 1 expected | Файл: C:\OpenServer\domains\metrology\vendor\own\core\Router.php |
+         Строка: 40
+===============
+[2022-11-02 22:03:19] Текст ошибки: Too few arguments to function core\Router::__construct(), 0 passed in C:\OpenServer\domains\metrology\vendor\own\core\TSingletone.php on line 12 and exactly 1 expected | Файл: C:\OpenServer\domains\metrology\vendor\own\core\Router.php |
+         Строка: 10
+===============
+[2022-11-02 22:04:32] Текст ошибки: Установите правила маршрутизации | Файл: C:\OpenServer\domains\metrology\vendor\own\core\Router.php |
+         Строка: 46
+===============
+[2022-11-02 22:45:43] Текст ошибки: Array to string conversion | Файл: C:\OpenServer\domains\metrology\vendor\own\core\Router.php |
+         Строка: 54
+===============
+[2022-11-02 22:46:15] Текст ошибки: Контроллер app\controllers\ViewController не найден. | Файл: C:\OpenServer\domains\metrology\vendor\own\core\Router.php |
+         Строка: 30
+===============
+[2022-11-02 22:48:05] Текст ошибки: Контроллер app\controllers\ViewController не найден. | Файл: C:\OpenServer\domains\metrology\vendor\own\core\Router.php |
+         Строка: 33
+===============
+[2022-11-03 14:44:03] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\metrology\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-03 17:31:22] Текст ошибки: Контроллер app\controllers\MainController не найден. | Файл: C:\OpenServer\domains\metrology\vendor\own\core\Router.php |
+         Строка: 33
+===============
+[2022-11-03 18:38:55] Текст ошибки: Call to undefined method app\controllers\MainController::displayView() | Файл: C:\OpenServer\domains\metrology\vendor\own\core\Router.php |
+         Строка: 28
+===============
+[2022-11-03 18:38:57] Текст ошибки: Call to undefined method app\controllers\MainController::displayView() | Файл: C:\OpenServer\domains\metrology\vendor\own\core\Router.php |
+         Строка: 28
+===============
+[2022-11-03 19:22:01] Текст ошибки: Call to undefined method app\controllers\MainController::displayView() | Файл: C:\OpenServer\domains\metrology\vendor\own\core\Router.php |
+         Строка: 28
+===============
+[2022-11-03 19:22:44] Текст ошибки: Class 'core\base\View' not found | Файл: C:\OpenServer\domains\metrology\vendor\own\core\base\Controller.php |
+         Строка: 35
+===============
+[2022-11-03 19:25:33] Текст ошибки: Не найден файл вида index | Файл: C:\OpenServer\domains\metrology\vendor\own\core\base\View.php |
+         Строка: 58
+===============
+[2022-11-03 19:49:26] Текст ошибки: Не найден шаблон default | Файл: C:\OpenServer\domains\metrology\vendor\own\core\base\View.php |
+         Строка: 68
+===============
+[2022-11-03 21:14:50] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\metrology\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-10 21:40:18] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\metrology\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-10 21:41:58] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\metrology\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-10 21:43:42] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\metrology\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-10 21:58:59] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\metrology\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-10 22:26:42] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\metrology\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-10 23:33:21] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\metrology\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-10 23:45:05] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\metrology\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-10 23:48:39] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\metrology\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-10 23:50:49] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\metrology\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-11 07:59:59] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\metrology\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-11 14:17:45] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\metrology\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-11 14:18:20] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\metrology\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-11 17:10:59] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\metrology\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-11 20:03:16] Текст ошибки: Контроллер app\controllers\MetrologyController не найден. | Файл: C:\OpenServer\domains\metrology\vendor\own\core\Router.php |
+         Строка: 33
+===============
+[2022-11-11 22:39:17] Текст ошибки: Class 'core\base\Db' not found | Файл: C:\OpenServer\domains\metrology\vendor\own\core\base\Model.php |
+         Строка: 12
+===============
+[2022-11-11 22:45:29] Текст ошибки: Use of undefined constant menu - assumed 'menu' (this will throw an Error in a future version of PHP) | Файл: C:\OpenServer\domains\metrology\app\controllers\MainController.php |
+         Строка: 10
+===============
+[2022-11-11 22:45:56] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fw.menu' doesn't exist | Файл: C:\OpenServer\domains\metrology\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php |
+         Строка: 206
+===============
+[2022-11-12 17:25:58] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 17:37:57] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 18:17:01] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 18:39:17] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 20:01:40] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 20:20:07] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 20:20:13] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 20:20:13] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 20:20:37] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 20:21:45] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 20:21:49] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 20:21:50] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 20:21:52] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 20:21:52] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 20:22:34] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 20:22:37] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 20:22:37] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 20:22:38] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 20:22:38] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 20:22:39] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 20:22:40] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 20:22:42] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 20:22:42] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 20:23:01] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 20:23:03] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 20:24:32] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 20:25:07] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 20:26:31] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 20:27:29] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 21:52:42] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 23:18:18] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 23:20:45] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 23:23:23] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 23:25:54] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 23:30:12] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 23:30:34] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-12 23:31:24] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 08:50:00] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 09:16:38] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 19:04:23] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 19:04:45] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 19:08:45] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 19:13:28] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 19:36:30] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 19:38:57] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 20:03:41] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 21:09:39] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 21:16:47] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 22:12:09] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 22:42:28] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 22:53:54] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 22:54:18] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 23:03:00] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 23:12:00] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 23:12:17] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 23:12:30] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 23:13:28] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 23:13:37] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 23:13:53] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 23:14:16] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 23:14:18] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 23:14:22] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 23:15:01] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 23:18:44] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 23:30:51] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 23:41:39] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 23:42:37] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 23:53:58] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-13 23:56:40] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 00:06:53] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 00:10:01] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 00:13:06] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 00:36:07] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 00:37:15] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 00:38:52] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 00:39:33] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 00:39:52] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 01:19:46] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 01:23:50] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 01:24:40] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 10:04:28] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 10:47:48] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 10:48:55] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 10:52:32] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 10:53:21] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 10:57:52] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 10:58:04] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 10:58:09] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 10:58:31] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 10:59:12] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 11:00:21] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 11:06:32] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 11:10:00] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 11:10:48] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 11:11:04] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 11:14:49] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 11:15:45] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 11:23:22] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 11:25:01] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 11:25:30] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 11:28:26] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 11:28:39] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 11:29:41] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 11:30:26] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 11:30:41] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 11:32:26] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 11:33:56] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 11:36:09] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 11:49:49] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 11:49:59] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 11:51:20] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 12:22:34] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 12:27:02] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 12:27:07] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 12:30:20] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 12:30:31] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 12:32:52] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 12:36:41] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 12:40:38] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 12:45:56] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 12:46:36] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 12:48:22] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 13:49:13] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 14:40:58] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 14:47:24] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 14:57:17] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 15:05:09] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 15:06:00] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 15:06:20] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 15:09:08] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 15:12:30] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 15:14:03] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 15:51:14] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 15:51:59] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 15:55:26] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 15:57:08] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 16:00:36] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 16:01:14] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 16:01:31] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 16:20:18] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 16:22:01] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 16:27:21] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 16:27:35] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 16:28:24] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 16:28:49] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 16:56:28] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 16:57:13] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 16:59:09] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 16:59:55] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 17:03:13] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 17:04:17] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 17:10:05] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 17:13:29] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 17:19:06] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 17:32:07] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 17:34:29] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 17:40:16] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 17:42:48] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 17:43:57] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 17:49:43] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 18:00:43] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 18:10:25] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 18:12:39] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 18:13:08] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 18:15:31] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 18:25:51] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 19:18:39] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 19:19:59] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 19:23:31] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 19:28:10] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 19:28:12] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 19:29:08] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 19:58:32] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 19:58:42] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 21:52:26] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 21:53:37] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 21:55:23] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 22:03:34] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 23:02:33] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 23:05:05] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 23:09:29] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 23:14:19] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 23:14:26] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 23:14:52] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 23:17:01] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-14 23:31:39] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 00:05:30] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 00:07:23] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 01:27:09] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 18:03:50] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 20:01:48] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 20:05:18] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 20:07:43] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 20:09:22] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 20:41:54] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 21:07:32] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 21:09:08] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 21:10:02] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 21:14:15] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 21:14:24] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 21:14:38] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 21:41:32] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 21:44:04] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 22:54:20] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 22:54:20] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 22:54:20] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 22:54:20] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 22:54:20] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 22:54:20] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 22:54:20] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 22:54:20] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 22:54:20] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 22:54:25] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 22:54:25] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 22:54:25] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 22:54:25] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 22:54:25] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 22:54:25] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 22:54:25] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 22:54:25] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 22:54:25] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 22:54:26] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 23:04:02] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 23:10:04] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 23:15:06] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 23:18:50] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 23:19:58] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 23:24:52] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 23:32:57] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-15 23:34:29] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 00:02:28] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 00:26:57] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 00:27:13] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 00:27:22] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 00:27:40] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 00:28:04] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 00:38:24] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 00:40:14] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 00:44:01] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 00:48:04] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 00:57:55] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 00:58:48] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 00:59:41] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 01:02:03] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 01:04:12] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 11:03:40] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 11:06:45] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 11:14:12] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 11:21:25] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 11:38:06] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 11:44:18] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 11:44:59] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 11:47:39] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 11:48:50] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 11:50:12] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 11:52:47] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 11:55:07] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 12:22:30] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 12:24:35] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 12:31:03] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 12:31:08] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 12:32:38] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 12:33:53] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 12:35:58] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 12:44:52] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 12:45:12] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 12:45:15] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 12:47:29] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 14:11:38] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 15:19:15] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 15:21:12] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 15:30:39] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 15:32:26] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 15:48:34] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 15:51:57] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 15:52:34] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 15:57:04] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 15:59:43] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 16:39:32] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 16:41:23] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 16:44:02] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 16:45:56] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 16:49:39] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 16:51:19] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 16:51:39] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 16:53:32] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 17:23:47] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 17:29:54] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 17:30:50] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 17:33:54] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 17:34:38] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 17:39:28] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 17:39:49] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 17:40:44] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 17:41:17] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 17:42:31] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 17:43:37] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 17:43:55] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 17:46:15] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 17:49:17] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 17:54:10] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 17:57:17] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 18:00:11] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 18:01:16] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 18:08:27] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 18:58:51] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 18:59:14] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 19:00:27] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 19:01:18] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 19:02:09] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 19:12:36] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 19:13:07] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 19:13:32] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 19:29:03] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 19:52:48] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 20:03:03] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 20:03:16] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 20:06:57] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 20:07:39] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 20:08:10] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 20:12:32] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 20:31:14] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 20:35:02] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 20:38:55] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 20:39:54] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 20:40:45] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 20:41:31] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 20:44:10] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 20:44:29] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 20:49:33] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 20:55:13] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 20:59:44] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 21:01:08] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 21:07:38] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 21:08:30] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 21:08:58] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 21:13:23] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 21:48:29] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 22:11:21] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 23:01:48] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 23:15:34] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 23:43:35] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 23:54:49] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-16 23:58:01] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 00:00:20] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 00:01:04] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 00:07:50] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 00:49:09] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 01:02:33] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 01:09:47] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 01:12:20] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 01:13:38] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 01:19:25] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 01:21:08] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 01:21:24] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 01:26:37] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 15:10:35] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 15:31:31] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 15:34:03] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 15:35:16] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 15:36:45] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 15:38:43] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 15:41:47] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 16:02:20] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 16:02:49] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 18:27:43] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 18:33:07] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 18:45:05] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 18:46:36] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 18:49:10] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 20:30:01] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 22:37:34] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 22:54:58] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 23:02:59] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 23:07:56] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 23:19:11] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 23:20:45] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 23:25:28] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 23:27:00] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 23:28:46] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 23:43:48] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 23:49:41] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 23:52:22] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 23:53:21] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 23:55:04] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-17 23:58:23] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 00:07:03] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 00:11:17] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 00:27:58] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 00:29:46] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 00:34:11] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 00:39:00] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 01:05:50] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 15:35:56] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 15:46:51] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 15:48:09] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 15:55:38] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 16:11:28] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 16:14:15] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 16:20:58] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 16:23:57] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 16:48:24] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 16:49:02] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 16:54:07] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 17:30:40] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 18:58:27] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 19:56:05] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 20:09:50] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 20:11:39] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 20:21:48] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 20:32:45] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 20:34:33] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 20:36:24] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 20:41:40] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 20:53:12] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 20:53:52] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 20:54:07] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 20:55:00] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 20:57:34] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 21:01:23] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-18 21:02:42] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============

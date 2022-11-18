@@ -4,10 +4,10 @@ namespace app\controllers;
 
 use core\base\Controller;
 
-class MainController extends Controller {
+class MainController extends AppController {
 
     public function indexAction(){
-        echo __METHOD__;
+        $this->setMeta('Главная', 'Метрология', 'Метрология');
     }
 
 }

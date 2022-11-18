@@ -41,9 +41,9 @@ class View{
        foreach ($this->meta as $name => $metaContent){
            if ($metaContent){
                if ($name == 'title') {
-                   $insertedMeta .= "<title>$metaContent</title>";
+                   $insertedMeta .= "<title>$metaContent</title>" . PHP_EOL;
                }else{
-                   $insertedMeta .= "<meta name='{$name}' content='{$metaContent}'>";
+                   $insertedMeta .= "<meta name='{$name}' content='{$metaContent}'>" . PHP_EOL;
                }
            }
        }
@@ -72,9 +72,9 @@ class View{
 
     //alternative way
     public function getMeta(){
-        $output = '<title>' . $this->meta['title'] . '</title>';
-        $output .= '<meta name="description" content="' . $this->meta['description'] . '">';
-        $output .= '<meta name="keywords" content="' . $this->meta['keywords'] . '">';
+        $output = '<title>' . $this->meta['title'] . '</title>' . PHP_EOL;
+        $output .= '<meta name="description" content="' . $this->meta['description'] . '">' . PHP_EOL;
+        $output .= '<meta name="keywords" content="' . $this->meta['keywords'] . '">' . PHP_EOL;
         return $output;
     }
 }

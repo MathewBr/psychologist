@@ -1,0 +1,1145 @@
+body {
+  --main-border-radius: 1rem;
+  font-family: "Nunito", Arial sans-serif;
+  overflow-x: hidden;
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+#screen.activeMenu {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  background-color: rgba(102, 102, 102, 0.46);
+  z-index: 99;
+}
+#screen.activeMenu div#cloneMenu {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 60%;
+  height: 100vh;
+  color: white;
+  background-color: #111111;
+  transform: translateX(100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#screen.activeMenu div#cloneMenu a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  padding: 0 10%;
+}
+
+#screen.nonActiveMenu {
+  display: none;
+}
+
+.mainbutton {
+  height: 3rem;
+  min-width: 15rem;
+  border-radius: 1.5rem;
+  background-color: rgb(4, 4, 70);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 200ms linear;
+}
+
+button.mainbutton:hover {
+  color: rgb(4, 4, 70);
+  outline: solid 2px rgb(4, 4, 70);
+  background-color: white;
+}
+
+.gallery {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 9rem;
+}
+nav #logo {
+  margin-left: 8%;
+}
+nav #logo a {
+  height: 100%;
+  width: 100%;
+}
+nav #menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin-right: 8%;
+}
+@media screen and (max-width: 992px) {
+  nav #menu {
+    display: none;
+  }
+}
+nav #menu a {
+  font-size: 1.3rem;
+  transition: transform 100ms linear;
+}
+nav #menu a:hover {
+  transform: scale(1.5);
+}
+nav img {
+  display: block;
+  width: auto;
+  height: 100%;
+}
+nav a {
+  display: block;
+  text-decoration: none;
+}
+nav #burg {
+  width: 3rem;
+  height: 3rem;
+  flex-flow: column;
+  justify-content: space-between;
+  align-self: center;
+  margin-right: 3rem;
+  position: fixed;
+  right: 0;
+  z-index: 999;
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  nav #burg {
+    display: flex;
+  }
+}
+@media screen and (max-width: 576px) {
+  nav #burg {
+    transform: scale(0.8);
+    margin-right: 1.5rem;
+  }
+}
+nav #burg:hover {
+  cursor: pointer;
+}
+nav #burg * {
+  height: 0.4rem;
+  border-radius: 0.2rem;
+  background-color: gray;
+  outline: solid 2px white;
+  transform-origin: center;
+}
+nav #burg.noneActive span:first-child {
+  transform: none;
+  animation: burgFirstChildBack 300ms linear;
+}
+nav #burg.noneActive span:nth-child(2) {
+  transform: none;
+  animation: burgMiddlChildBack 300ms linear;
+}
+nav #burg.noneActive span:last-child {
+  transform: none;
+  animation: burgLastChildBack 300ms linear;
+}
+nav #burg.active span:first-child {
+  transform: translateY(1.3rem) rotate(45deg) scaleX(1.3);
+  animation: burgFirstChild 300ms linear;
+}
+nav #burg.active span:nth-child(2) {
+  transform: scale(0);
+  animation: burgMiddlChild 300ms linear;
+}
+nav #burg.active span:last-child {
+  transform: translateY(-1.3rem) rotate(-45deg) scaleX(1.3);
+  animation: burgLastChild 300ms linear;
+}
+
+section#slogan {
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 992px) {
+  section#slogan {
+    flex-direction: column;
+  }
+}
+section#slogan div {
+  display: flex;
+  flex-direction: column;
+  line-height: 2.5rem;
+  position: relative;
+}
+section#slogan div p {
+  padding: 2rem;
+}
+section#slogan div p#help {
+  font-size: 1.5rem;
+  padding-top: 2rem;
+}
+section#slogan div p#hope {
+  font-size: 1.8rem;
+  line-height: 3rem;
+  font-weight: bold;
+}
+@media screen and (max-width: 576px) {
+  section#slogan div p#hope {
+    font-size: 1.3rem;
+  }
+}
+section#slogan div:first-child {
+  flex: 0 1 50%;
+}
+section#slogan .shadow {
+  flex: 0 0.8 content;
+  border-radius: 10px;
+  border: solid thin rgba(34, 60, 80, 0.31);
+  -webkit-box-shadow: 0 0 5px 2px rgba(51, 51, 51, 0.14);
+  -moz-box-shadow: 0 0 5px 2px rgba(51, 51, 51, 0.14);
+  box-shadow: 0 0 5px 2px rgba(51, 51, 51, 0.14);
+  align-self: flex-end;
+}
+@media screen and (max-width: 786px) {
+  section#slogan .shadow {
+    flex: 1 1 content;
+  }
+}
+section#slogan .shadow img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+section#slogan #corrector {
+  display: none;
+  float: right;
+  position: relative;
+  top: 0;
+}
+@media screen and (max-width: 992px) {
+  section#slogan #corrector {
+    display: block;
+    transform: translate(0, 50%);
+  }
+}
+@media screen and (max-width: 786px) {
+  section#slogan #corrector {
+    display: none;
+  }
+}
+section#slogan #mainphoto {
+  display: block;
+}
+@media screen and (max-width: 992px) {
+  section#slogan #mainphoto {
+    display: none;
+  }
+}
+@media screen and (max-width: 786px) {
+  section#slogan #mainphoto {
+    display: block;
+    align-self: center;
+    transform: translate(10%, -15%);
+  }
+}
+@media screen and (max-width: 576px) {
+  section#slogan #mainphoto {
+    transform: translate(0, 0);
+  }
+}
+
+section#problem {
+  margin: 10vh 0;
+  padding: 3rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  color: white;
+  min-height: 80vh;
+}
+section#problem .skew {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: linear-gradient(to bottom, rgb(1, 1, 17), rgb(72, 82, 112));
+  transform: skewY(-10deg);
+}
+section#problem #arrow img {
+  animation: arrow 1500ms linear reverse infinite;
+}
+section#problem > p {
+  width: 50%;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+}
+@media screen and (max-width: 786px) {
+  section#problem > p {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 576px) {
+  section#problem > p {
+    width: 90%;
+    font-size: 1.5rem;
+  }
+}
+section#problem #clip {
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 992px) {
+  section#problem #clip {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+section#problem #clip > div {
+  flex: 0 1 20%;
+  text-align: center;
+  font-size: 1.2rem;
+  position: relative;
+}
+@media screen and (max-width: 992px) {
+  section#problem #clip > div {
+    width: 60%;
+    margin: 2rem;
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 786px) {
+  section#problem #clip > div {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 576px) {
+  section#problem #clip > div {
+    width: 90%;
+  }
+}
+section#problem #clip > div span {
+  display: block;
+  width: 55%;
+  aspect-ratio: 1/1;
+  background-color: #2c4422;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  transform: translate(-20%, -20%);
+  border-radius: 1rem;
+}
+@media screen and (max-width: 992px) {
+  section#problem #clip > div span {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: auto;
+    transform: translate(0, 0);
+  }
+}
+
+section#apply {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+section#apply > p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+section#apply #gallery {
+  display: grid;
+  grid-template-areas: "lotus lotus lilies sunflower" "sky building lilies leaves";
+  aspect-ratio: 1.2/1;
+  max-height: 100vh;
+  color: white;
+  font-weight: bold;
+  margin: 0 0.5rem;
+}
+@media screen and (max-width: 992px) {
+  section#apply #gallery {
+    grid-template-areas: "lotus lotus" "sky building" "lilies lilies" "sunflower leaves";
+    min-height: 200vh;
+  }
+}
+@media screen and (max-width: 576px) {
+  section#apply #gallery {
+    grid-template-areas: "lotus" "sky" "building" "lilies" "sunflower" "leaves";
+    aspect-ratio: 1/1;
+    min-height: 400vh;
+  }
+}
+section#apply #gallery > div {
+  margin: 0.5rem;
+  position: relative;
+  overflow: hidden;
+}
+section#apply #gallery > div div.gallery {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  transition: transform 300ms linear;
+}
+section#apply #gallery > div div.myhover {
+  transform: scale(1.1);
+}
+section#apply #gallery > div p {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  z-index: 1;
+}
+section#apply #gallery span {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgba(0, 4, 31, 0.6));
+  transition: height 300ms linear;
+}
+section#apply #gallery span.myhover {
+  height: 20%;
+}
+section#apply #gallery #lotus {
+  grid-area: lotus;
+}
+section#apply #gallery #lotus div.gallery {
+  background-image: url("../img/lotus.png");
+}
+section#apply #gallery #sky {
+  grid-area: sky;
+}
+section#apply #gallery #sky .gallery {
+  background-image: url("../img/sky.png");
+}
+section#apply #gallery #building {
+  grid-area: building;
+}
+section#apply #gallery #building .gallery {
+  background-image: url("../img/building.png");
+}
+section#apply #gallery #lilies {
+  grid-area: lilies;
+}
+section#apply #gallery #lilies .gallery {
+  background-image: url("../img/lilies.png");
+}
+section#apply #gallery #sunflower {
+  grid-area: sunflower;
+}
+section#apply #gallery #sunflower .gallery {
+  background-image: url("../img/sunflower.png");
+}
+section#apply #gallery #leaves {
+  grid-area: leaves;
+}
+section#apply #gallery #leaves .gallery {
+  background-image: url("../img/leaves.jpg");
+}
+
+section#introduce {
+  margin: 3rem 1rem 5rem 1rem;
+}
+section#introduce div:first-child {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 992px) {
+  section#introduce div:first-child {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+section#introduce div:first-child div {
+  flex: 1 1 50%;
+}
+@media screen and (max-width: 992px) {
+  section#introduce div:first-child div:first-child {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 576px) {
+  section#introduce div:first-child div:first-child {
+    width: 80%;
+  }
+}
+section#introduce div:first-child div:first-child img {
+  height: 100%;
+  width: auto;
+}
+section#introduce div:first-child div:last-child {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 992px) {
+  section#introduce div:first-child div:last-child {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 576px) {
+  section#introduce div:first-child div:last-child {
+    width: 80%;
+  }
+}
+section#introduce div:first-child div:last-child h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+@media screen and (max-width: 992px) {
+  section#introduce div:first-child div:last-child h1 {
+    text-align: center;
+    margin: 1rem 0;
+  }
+}
+@media screen and (max-width: 786px) {
+  section#introduce div:first-child div:last-child h1 {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  section#introduce div:first-child div:last-child h1 {
+    font-size: 2rem;
+  }
+}
+section#introduce div:first-child div:last-child h3 {
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 576px) {
+  section#introduce div:first-child div:last-child h3 {
+    font-size: 1.3rem;
+  }
+}
+section#introduce div:first-child div:last-child p {
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 576px) {
+  section#introduce div:first-child div:last-child p {
+    font-size: 1rem;
+  }
+}
+section#introduce div:first-child div:last-child button {
+  align-self: start;
+  transform: translate(0, 100%);
+}
+
+#popup.nonActivePopup {
+  display: none;
+}
+
+#popup.activePopup {
+  display: flex;
+  z-index: 99999;
+  width: 70%;
+  margin: 3rem auto;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateY(100%);
+}
+@media screen and (max-width: 786px) {
+  #popup.activePopup {
+    width: 80%;
+  }
+}
+#popup.activePopup h2, #popup.activePopup p {
+  padding: 0 1rem;
+}
+#popup.activePopup button {
+  margin: 2rem;
+  align-self: start;
+  font-size: smaller;
+  background-color: white;
+  border: solid 2px black;
+  height: 2rem;
+  border-radius: 2rem;
+}
+
+#cross {
+  width: 3rem;
+  height: 3rem;
+  flex-flow: column;
+  justify-content: space-between;
+  align-self: center;
+  position: fixed;
+  right: 3rem;
+  top: 3rem;
+  z-index: 9999999;
+  display: none;
+}
+@media screen and (max-width: 786px) {
+  #cross {
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+}
+#cross * {
+  height: 0.4rem;
+  border-radius: 0.2rem;
+  background-color: #0f1a38;
+  outline: solid 2px white;
+  transform-origin: center;
+}
+#cross span:first-child {
+  transform: translateY(1.3rem) rotate(45deg) scaleX(1.3);
+}
+#cross span:nth-child(2) {
+  transform: scale(0);
+}
+#cross span:last-child {
+  transform: translateY(-1.3rem) rotate(-45deg) scaleX(1.3);
+}
+
+#cross:hover {
+  cursor: pointer;
+}
+#cross:hover #cross.noneActive span:first-child {
+  transform: none;
+  animation: burgFirstChildBack 300ms linear;
+}
+#cross:hover #cross.noneActive span:nth-child(2) {
+  transform: none;
+  animation: burgMiddlChildBack 300ms linear;
+}
+#cross:hover #cross.noneActive span:last-child {
+  transform: none;
+  animation: burgLastChildBack 300ms linear;
+}
+
+section#price {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 7rem;
+}
+section#price .skew {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: linear-gradient(5deg, rgb(72, 82, 112), rgb(1, 1, 17) 25%, rgb(1, 1, 17) 75%, rgb(72, 82, 112));
+  transform: skewY(-10deg);
+}
+section#price h2 {
+  color: white;
+  font-size: 3rem;
+  padding-top: 2rem;
+}
+section#price > p {
+  color: white;
+  font-size: 1.5rem;
+  padding-bottom: 3rem;
+}
+section#price .flexContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 992px) {
+  section#price .flexContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    padding: 0 1rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  section#price .flexContainer {
+    grid-template-columns: 80%;
+    grid-template-rows: 33% 33% 33%;
+  }
+}
+section#price .mycard {
+  flex: 0 1 30%;
+}
+@media screen and (max-width: 992px) {
+  section#price .mycard {
+    margin: 1rem;
+  }
+}
+section#price a {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  border-radius: 1rem;
+  background-color: white;
+  text-decoration: none;
+  color: initial;
+}
+section#price a div.gallery {
+  border-radius: var(--main-border-radius) var(--main-border-radius) 0 0;
+  aspect-ratio: 1/1;
+}
+section#price a div.wrapper {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0 0 var(--main-border-radius) var(--main-border-radius);
+  text-align: initial;
+  padding: 0 1rem 1rem 1rem;
+}
+section#price a div.wrapper h4 {
+  margin: 0.5rem 0;
+}
+section#price a div.wrapper p {
+  font-size: small;
+  line-height: 1.2rem;
+}
+section#price a div.coast {
+  font-size: larger;
+  font-weight: bold;
+  padding: 0.5rem 0;
+}
+section#price a button {
+  height: 2rem;
+  width: 7rem;
+  font-size: small;
+  border: solid thin #2c4422;
+  border-radius: 0.5rem;
+}
+section#price a div.buttons button:first-child {
+  background-color: #2c4422;
+  color: white;
+}
+section#price a div.buttons button:last-child {
+  background-color: white;
+  color: #2c4422;
+}
+section#price #standard {
+  background-image: url("../img/standart.png");
+}
+section#price #course {
+  background-image: url("../img/cours.jpg");
+}
+section#price #talk {
+  background-image: url("../img/talk.jpg");
+}
+
+section#feedback {
+  display: flex;
+  justify-content: center;
+  background-color: #666666;
+  padding: 10rem 0;
+  margin: 7rem 0;
+}
+section#feedback div.wrapper {
+  min-width: 60%;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+section#feedback div.wrapper h4 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 0;
+}
+section#feedback div.feedback {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 786px) {
+  section#feedback div.feedback {
+    flex-direction: column;
+  }
+}
+section#feedback form {
+  flex: 1 1 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+section#feedback form > * {
+  margin: 0.7rem 0;
+}
+section#feedback form .group {
+  display: flex;
+  flex-direction: column;
+}
+section#feedback form .group input, section#feedback form .group textarea {
+  padding: 0.5rem;
+  border: solid 2px gray;
+  border-radius: 0.5rem;
+}
+section#feedback form button {
+  align-self: center;
+}
+section#feedback #session {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section#feedback #session div.radioGroup {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+}
+section#feedback #session div.radioGroup input {
+  margin-right: 5px;
+}
+section#feedback div.illustration {
+  position: relative;
+  flex: 1 1 40%;
+  aspect-ratio: 1/1;
+}
+section#feedback div.illustration img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: auto;
+  transition: opacity 200ms linear;
+}
+section#feedback div.illustration img.show {
+  opacity: 1;
+}
+section#feedback div.illustration img.nonshow {
+  opacity: 0;
+}
+
+section#after {
+  display: flex;
+  justify-content: center;
+}
+section#after .wrapper {
+  flex: 0 1 60%;
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  text-align: center;
+}
+section#after .wrapper > * {
+  margin: 0.8rem 0;
+}
+section#after .wrapper span {
+  font-weight: bold;
+}
+section#after .group {
+  position: relative;
+  justify-content: center;
+  display: flex;
+}
+section#after .group .inscription {
+  background-color: black;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: smaller;
+}
+section#after .group .line {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  z-index: -1;
+}
+
+section#gratitude {
+  margin: 7rem 0;
+  position: relative;
+}
+section#gratitude h2 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+section#gratitude .skew {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  background-image: linear-gradient(5deg, rgb(72, 82, 112), rgb(1, 1, 17) 25%, rgb(1, 1, 17) 75%, rgb(72, 82, 112));
+  transform: skewY(-10deg);
+}
+section#gratitude .shell {
+  padding: 7rem 0;
+  width: 60%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 786px) {
+  section#gratitude .shell {
+    width: 80%;
+  }
+}
+section#gratitude .shell > * {
+  margin: 1rem 0;
+}
+section#gratitude .shell button {
+  display: block;
+  margin: 0 auto;
+}
+section#gratitude .carousel-item img {
+  width: 100%;
+  height: auto;
+}
+section#gratitude .carousel-control-prev-icon {
+  transform: translateX(-250%);
+}
+@media screen and (max-width: 992px) {
+  section#gratitude .carousel-control-prev-icon {
+    transform: translateX(-150%);
+  }
+}
+section#gratitude .carousel-control-next-icon {
+  transform: translateX(250%);
+}
+@media screen and (max-width: 992px) {
+  section#gratitude .carousel-control-next-icon {
+    transform: translateX(150%);
+  }
+}
+
+section#format {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+@media screen and (max-width: 576px) {
+  section#format {
+    align-items: center;
+  }
+}
+section#format h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+section#format #schema1 {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 576px) {
+  section#format #schema1 {
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+  }
+}
+section#format .group {
+  flex: 1 1 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2rem;
+}
+section#format .circle {
+  background-color: #2c4422;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  color: white;
+  margin: 0 auto;
+}
+section#format .variant, section#format .format {
+  font-size: 2rem;
+  line-height: 5rem;
+  font-weight: bold;
+}
+section#format button {
+  align-self: center;
+}
+
+section#appointment {
+  position: relative;
+  height: 80vh;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background: url("../img/appointment.png") center/cover fixed;
+}
+section#appointment .filter {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-linear-gradient(top, rgba(0, 4, 31, 0.7), rgba(44, 68, 34, 0.7));
+}
+section#appointment h2, section#appointment p, section#appointment form {
+  margin: 2rem 0;
+  z-index: 1;
+}
+section#appointment h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+section#appointment p {
+  font-size: 1.5rem;
+}
+section#appointment form {
+  display: flex;
+  justify-content: center;
+  height: 3.5rem;
+}
+@media screen and (max-width: 992px) {
+  section#appointment form {
+    flex-direction: column;
+    height: auto;
+    min-width: 60%;
+    min-height: 30%;
+  }
+}
+@media screen and (max-width: 786px) {
+  section#appointment form {
+    min-width: 80%;
+  }
+}
+section#appointment form input, section#appointment form button {
+  margin: 0 0.5rem;
+  border-radius: 0.5rem;
+}
+section#appointment form input {
+  flex: 1 0 27%;
+}
+section#appointment form button {
+  flex: 0 1;
+  font-size: 1rem;
+  height: 3.5rem;
+  min-width: 8rem;
+}
+@media screen and (max-width: 992px) {
+  section#appointment form button {
+    font-size: 2rem;
+  }
+}
+
+section#blog {
+  display: flex;
+  justify-content: space-around;
+  min-height: 60vh;
+}
+section#blog div {
+  flex: 1 1 40%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section#blog div h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+section#blog div p {
+  font-size: 1.2rem;
+}
+section#blog div button {
+  align-self: start;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #00041f;
+  color: white;
+}
+footer .contact {
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 786px) {
+  footer .contact {
+    flex-direction: column;
+  }
+}
+footer .contact > div {
+  flex: 1 1 30%;
+}
+
+/**********keyframes burg*/
+@keyframes burgFirstChild {
+  0% {
+    transform: translateY(0) rotate(0) scaleX(1);
+  }
+  50% {
+    transform: translateY(1.3rem);
+  }
+}
+@keyframes burgMiddlChild {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0);
+  }
+}
+@keyframes burgLastChild {
+  0% {
+    transform: translateY(0) rotate(0) scaleX(1);
+  }
+  50% {
+    transform: translateY(-1.3rem);
+  }
+}
+/*burg back*/
+@keyframes burgFirstChildBack {
+  0% {
+    transform: translateY(1.3rem) rotate(45deg) scaleX(1.3);
+  }
+  50% {
+    transform: translateY(1.3rem) rotate(0deg) scale(1);
+  }
+}
+@keyframes burgMiddlChildBack {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+@keyframes burgLastChildBack {
+  0% {
+    transform: translateY(-1.3rem) rotate(-45deg) scaleX(1.3);
+  }
+  50% {
+    transform: translateY(-1.3rem) rotate(0deg) scale(1);
+  }
+}
+/**********end keyframes burg*/
+/*arrow*/
+@keyframes arrow {
+  0% {
+    transform: translateY(-150%);
+  }
+  50% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-150%);
+  }
+}
+/*arrow*/
+/*editor*/
+.note-editable {
+  background-color: white;
+}
+
+/*# sourceMappingURL=layout.css.map */

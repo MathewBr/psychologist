@@ -19,6 +19,7 @@ nav ul {
   z-index: 999;
 }
 nav ul ul {
+  display: none;
   flex-wrap: wrap;
   background-color: #FF3366;
 }

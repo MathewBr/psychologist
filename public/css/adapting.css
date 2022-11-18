@@ -1,0 +1,14 @@
+@media screen and (max-width: 992px) {
+  nav #menu {
+    display: none;
+  }
+  nav #burg {
+    display: flex;
+  }
+
+  section#slogan {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=adapting.css.map */

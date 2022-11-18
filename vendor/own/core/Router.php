@@ -72,8 +72,10 @@ class Router{
         return lcfirst($this->upperCamelCase($name));
     }
 
+    //в результате переадресации .htaccess http://metrology:8080/view/page?id=1 /view/page - не явные get параметры, после ? - явные get параметры
+    //кромсание url не влияет на $_GET массив
     protected function removeQueryString($url){
-        if ($url){
+        if ($url){ //по запросу http://metrology:8080/metrology?id=1 приходит metrology&id=1
             $partsURL = explode('&', $url, 2);
             if (false === strpos($partsURL[0], '=')){
                 return rtrim($partsURL[0], '/');

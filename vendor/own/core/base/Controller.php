@@ -9,6 +9,7 @@ abstract class Controller{
     public $viewfile;//corresponds to the action
     public $layout;
     public $prefix;//separately
+    public $controller;
     public $model;
     public $data = []; //transmitted data in view
     public $meta = []; //data for tag <meta>
@@ -18,7 +19,7 @@ abstract class Controller{
         $this->viewFolder = lcfirst($route['controller']); //at the same time is folder name with views for corresponding controller
         $this->viewfile = $route['action'];//file name corresponding to this action
         $this->prefix = $route['prefix'];
-        $this->model = $route['controller'];//each controller has its own default model
+        $this->controller = $route['controller'];//each controller has its own default model
     }
 
     public function passData($data){
