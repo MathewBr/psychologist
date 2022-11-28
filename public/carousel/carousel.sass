@@ -1,0 +1,23 @@
+@mixin arrow
+  background-color: #FF3366
+  aspect-ratio: 1 / 1
+  border-radius: 50%
+
+#my-carousel
+  display: flex
+  align-items: center
+  img
+    display: block
+    width: 100%
+    height: auto
+    //transform: translateX(-150%)
+
+#my-carousel-left
+  @include arrow
+#my-carousel-right
+  @include arrow
+
+#my-carousel-content
+  display: flex
+  align-items: start
+  //overflow: hidden

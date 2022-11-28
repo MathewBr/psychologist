@@ -1,6 +1,6 @@
-#.idea
-#errors.log
+.idea
+errors.log
 #public/images
 #composer
-#config_smtp.php
-#config_db.php
+config_smtp.php
+config_db.php

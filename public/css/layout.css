@@ -48,7 +48,7 @@ body {
   font-size: 1.5rem;
   font-weight: bold;
   cursor: pointer;
-  transition: all 200ms linear;
+  transition: background-color, color 200ms linear;
 }
 
 button.mainbutton:hover {
@@ -777,7 +777,7 @@ section#feedback form .group {
   display: flex;
   flex-direction: column;
 }
-section#feedback form .group input, section#feedback form .group textarea {
+section#feedback form .group input {
   padding: 0.5rem;
   border: solid 2px gray;
   border-radius: 0.5rem;
@@ -1140,6 +1140,84 @@ footer .contact > div {
 /*editor*/
 .note-editable {
   background-color: white;
+}
+
+#details ul {
+  display: flex;
+  border-bottom: solid thin grey;
+  border-top: solid thin grey;
+  justify-content: space-between;
+  padding: 0;
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+}
+@media screen and (max-width: 992px) {
+  #details ul {
+    display: block;
+    width: 80%;
+    border: solid thin grey;
+  }
+  #details ul .selected {
+    display: block;
+  }
+  #details ul .showed {
+    position: absolute;
+    top: 0;
+    background-color: white;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    width: 100%;
+    z-index: 5;
+  }
+}
+#details ul li {
+  list-style-type: none;
+  cursor: pointer;
+  padding: 2rem;
+  font-size: 1.2rem;
+  display: block;
+}
+@media screen and (max-width: 1200px) {
+  #details ul li {
+    padding: 2rem 1rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  #details ul li {
+    padding: 0.5rem;
+    display: none;
+  }
+}
+#details ul .selected {
+  font-weight: bold;
+}
+#details .mainbutton.revers {
+  background-color: white;
+  color: rgb(4, 4, 70);
+}
+#details .mainbutton.revers:hover {
+  color: white;
+  background-color: rgb(4, 4, 70);
+}
+
+#details-content {
+  display: flex;
+  margin: 3rem;
+}
+#details-content > * {
+  padding: 1rem;
+}
+#details-content div:first-child {
+  flex: 0 1 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: large;
+}
+#details-content div:last-child {
+  flex: 0 1 70%;
 }
 
 /*# sourceMappingURL=layout.css.map */

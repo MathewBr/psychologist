@@ -15,4 +15,5 @@ return [
     'img_height' => 200,
     'gallery_width' => 700,
     'gallery_height' => 1000,
+    'blog' => 'http://www.host1851972.hostland.pro/',
 ];

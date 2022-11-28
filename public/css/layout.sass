@@ -42,7 +42,8 @@ body
   font-size: 1.5rem
   font-weight: bold
   cursor: pointer
-  transition: all 200ms linear
+  //transition: all 200ms linear
+  transition: background-color, color 200ms linear
 button.mainbutton:hover
     color: rgb(4, 4, 70)
     outline: solid 2px rgb(4, 4, 70)
@@ -583,7 +584,8 @@ section#feedback
     .group
       display: flex
       flex-direction: column
-      input, textarea
+      //input, textarea
+      input
         padding: 0.5rem
         border: solid 2px gray
         border-radius: 0.5rem
@@ -669,6 +671,9 @@ section#gratitude
     margin: 0 auto
     @media screen and (max-width: 786px)
       width: 80%
+    .wrap
+      //outline: solid thin red
+      //height: 1rem
     >*
       margin: 1rem 0
     button
@@ -859,3 +864,70 @@ footer
 /*editor*/
 .note-editable
   background-color: white
+
+#details
+  ul
+    display: flex
+    border-bottom: solid thin grey
+    border-top: solid thin grey
+    justify-content: space-between
+    padding: 0
+    width: 60%
+    margin: 0 auto
+    position: relative
+    @media screen and (max-width: 992px)
+      display: block
+      width: 80%
+      border: solid thin grey
+      .selected
+        display: block
+      .showed
+        //display: block
+        position: absolute
+        top: 0
+        background-color: white
+        -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2)
+        -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2)
+        box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2)
+        width: 100%
+        z-index: 5
+    li
+      list-style-type: none
+      cursor: pointer
+      padding: 2rem
+      font-size: 1.2rem
+      display: block
+      @media screen and (max-width: 1200px)
+        padding: 2rem 1rem
+      @media screen and (max-width: 992px)
+        padding: 0.5rem
+        display: none
+
+    .selected
+      font-weight: bold
+  .mainbutton.revers
+    //height: 3rem
+    //min-width: 15rem
+    //border-radius: 1.5rem
+    background-color: white
+    color: rgb(4, 4, 70)
+    //font-size: 1.5rem
+    //font-weight: bold
+    //cursor: pointer
+    //transition: all 200ms linear
+  .mainbutton.revers:hover
+    color: white
+    background-color: rgb(4, 4, 70)
+#details-content
+  display: flex
+  margin: 3rem
+  >*
+    padding: 1rem
+  div:first-child
+    flex: 0 1 30%
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    font-size: large
+  div:last-child
+    flex: 0 1 70%

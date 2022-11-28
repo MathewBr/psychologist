@@ -7,6 +7,8 @@ function ready(){
     adapter(document.getElementById('carousel'));
     showPopup(document.getElementById('popup'), document.getElementById('showpopup'));
     showIllustratiion(document.querySelector('.illustration'));
+    addAttribute();
+    switchLi(document.getElementById('switch'));
 }
 
 function toggleClassOnEvent(id, classActive, classNonActive, event) {
@@ -39,29 +41,31 @@ function toggleClass(elem, classActive, classNonActive){
 }
 
 function eventHoverDelegation(container, elemSelector, overHandler, outHandler){
-    let currentElem = null;
-    container.addEventListener('pointerover', pointerover);
-    container.addEventListener('pointerout', pointerout);
+    if (container){
+        let currentElem = null;
+        container.addEventListener('pointerover', pointerover);
+        container.addEventListener('pointerout', pointerout);
 
-    function pointerover(e){
-        if (currentElem) return;
-        let target = e.target.closest(elemSelector);
-        if (!target) return;
-        currentElem = target;
-        // console.log('зашли на - ', currentElem);
-        overHandler(currentElem);
-    }
-
-    function pointerout(e){
-        if (!currentElem) return;
-        let relatedTarget = e.relatedTarget;
-        while (relatedTarget){
-            if (relatedTarget == currentElem) return;
-            relatedTarget = relatedTarget.parentNode;
+        function pointerover(e){
+            if (currentElem) return;
+            let target = e.target.closest(elemSelector);
+            if (!target) return;
+            currentElem = target;
+            // console.log('зашли на - ', currentElem);
+            overHandler(currentElem);
         }
-        // console.log('покинули - ', currentElem);
-        outHandler(currentElem);
-        currentElem = null;
+
+        function pointerout(e){
+            if (!currentElem) return;
+            let relatedTarget = e.relatedTarget;
+            while (relatedTarget){
+                if (relatedTarget == currentElem) return;
+                relatedTarget = relatedTarget.parentNode;
+            }
+            // console.log('покинули - ', currentElem);
+            outHandler(currentElem);
+            currentElem = null;
+        }
     }
 }
 
@@ -84,23 +88,27 @@ function addAndDeleteClass(elem, className){
 }
 
 function adapter(carousel){
-    let instance = new bootstrap.Carousel(carousel, {
-        interval: false,
-        wrap: false
-    })
+    // let instance = new bootstrap.Carousel(carousel, {
+    //     interval: false,
+    //     wrap: false
+    // })
+    if (carousel){
+        let currentImg = carousel.querySelector('div.active img');
+        let previousValue = currentImg.clientHeight;
+        let parent = currentImg.closest('div.carousel-inner');
+        // console.log(parent);
+        parent.style.height = previousValue + 'px';
 
-    let currentImg = carousel.querySelector('div.active img');
-    let previousValue = currentImg.clientHeight;
+        carousel.addEventListener('slid.bs.carousel', changed);
 
-    carousel.addEventListener('slid.bs.carousel', changed);
-
-    function changed() {
-        currentImg = carousel.querySelector('div.active img');
-        let nextValue = currentImg.clientHeight;
-        currentImg.style.width = '100%';
-        currentImg.style.height = previousValue;
-        animate(currentImg, previousValue, nextValue, {timing: timingLinear, draw: drawHeight, duration: 300});
-        previousValue = nextValue;
+        function changed() {
+            currentImg = carousel.querySelector('div.active img');
+            let nextValue = currentImg.clientHeight;
+            // currentImg.style.width = '100%';
+            // currentImg.style.height = previousValue;
+            animate(parent, previousValue, nextValue, {timing: timingLinear, draw: drawHeight, duration: 300});
+            previousValue = nextValue;
+        }
     }
 }
 
@@ -179,6 +187,7 @@ function changeTransform(elem, progress, previousValue, nextValue){
 
 //show popup
 function showPopup(popup, trigger){
+    if (!trigger) return;
     trigger.addEventListener('click', ()=>{
         let screen = document.getElementById('screen');
         if (!popup.classList.contains('activePopup')){
@@ -259,4 +268,59 @@ function showIllustratiion(elem){
         toggleClass(showed, 'nonshow', 'show');
         toggleClass(hidden, 'show', 'nonshow');
     });
+}
+
+function addAttribute(){
+    let buttons = document.querySelectorAll('.my-signup');
+    for (let button of buttons){
+        button.addEventListener('click', (e)=>{
+            e.preventDefault();
+        });
+    }
+}
+
+function switchLi(ul){
+    if (!ul) return;
+    let arrLi = Array.from(ul.querySelectorAll('li'));
+    ul.addEventListener('click', (e)=>{
+        clickHandlerLi(e, arrLi, ul);
+        showHiddenLi(ul, arrLi);
+    });
+}
+function showHiddenLi(ul, arrLi){
+    if (getComputedStyle(ul).display == 'flex') return;
+    let count = 1;
+    arrLi.forEach((li)=>{
+        if (getComputedStyle(li).display == 'none'){
+            showLi(li, count++);
+        }
+    });
+    count = 1;
+}
+function clickHandlerLi(e, arrLi, ul){
+    if(e.target.tagName == 'LI') {
+        if (!e.target.classList.contains('selected')){
+            arrLi.forEach((li)=>{
+                li.classList.remove('selected');
+            });
+            e.target.classList.add('selected');
+        }
+    }
+    arrLi.forEach((li)=>{
+        hideLi(li)
+    });
+}
+function showLi(li, index){
+    if (!li.classList.contains('showed')){
+        li.classList.add('showed');
+        li.style.display = 'block';
+        li.style.transform = `translateY(${index * 100}%)`;
+    }
+}
+function hideLi(li){
+    if (li.classList.contains('showed')){
+        li.classList.remove('showed');
+        li.style.display = '';
+        li.style.transform = '';
+    }
 }

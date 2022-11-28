@@ -1,0 +1,28 @@
+#my-carousel {
+  display: flex;
+  align-items: center;
+}
+#my-carousel img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#my-carousel-left {
+  background-color: #FF3366;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+#my-carousel-right {
+  background-color: #FF3366;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+#my-carousel-content {
+  display: flex;
+  align-items: start;
+}
+
+/*# sourceMappingURL=carousel.css.map */

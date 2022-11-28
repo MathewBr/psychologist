@@ -7,6 +7,9 @@ class Router{
     protected $routes = [];
     protected $route = [];
 
+    /**
+     * @throws \Exception
+     */
     protected function __construct($rules = []){
         $this->pullRules($rules);
     }
