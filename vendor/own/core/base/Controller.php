@@ -45,8 +45,8 @@ abstract class Controller{
     public function sendAjaxResponse($view, $vars = []){
         extract($vars);
         $model = strtolower($this->model);
-        require APP . "/views/{$this->prefix}{$model}/{$view}.php";
-
+//        require APP . "/views/{$this->prefix}{$model}/{$view}.php";
+        require $view;
         die();
     }
 

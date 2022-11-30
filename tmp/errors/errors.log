@@ -1576,3 +1576,48 @@
 [2022-11-27 23:51:31] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\psychologist\vendor\own\core\Router.php |
          Строка: 39
 ===============
+[2022-11-29 10:52:05] Текст ошибки: Контроллер app\controllers\FeedbackController не найден. | Файл: C:\OSPanel\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 36
+===============
+[2022-11-29 10:52:05] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 39
+===============
+[2022-11-29 17:10:19] Текст ошибки: require(C:\OSPanel\domains\psychologist/app/widgets/send.php): failed to open stream: No such file or directory | Файл: C:\OSPanel\domains\psychologist\vendor\own\core\base\Controller.php |
+         Строка: 49
+===============
+[2022-11-29 18:16:00] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 39
+===============
+[2022-11-29 19:04:50] Текст ошибки: Call to protected method app\models\Message::getProperties() from context 'app\controllers\FeedbackController' | Файл: C:\OSPanel\domains\psychologist\app\controllers\FeedbackController.php |
+         Строка: 13
+===============
+[2022-11-29 19:33:52] Текст ошибки: Email "single" does not comply with addr-spec of RFC 2822. | Файл: C:\OSPanel\domains\psychologist\vendor\symfony\mime\Address.php |
+         Строка: 56
+===============
+[2022-11-29 19:36:03] Текст ошибки: Email "single" does not comply with addr-spec of RFC 2822. | Файл: C:\OSPanel\domains\psychologist\vendor\symfony\mime\Address.php |
+         Строка: 56
+===============
+[2022-11-29 22:48:44] Текст ошибки: An address can be an instance of Address or a string ("null" given). | Файл: C:\OSPanel\domains\psychologist\vendor\symfony\mime\Address.php |
+         Строка: 103
+===============
+[2022-11-29 22:48:44] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 39
+===============
+[2022-11-29 23:52:15] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 39
+===============
+[2022-11-30 00:45:58] Текст ошибки: An address can be an instance of Address or a string ("null" given). | Файл: C:\OSPanel\domains\psychologist\vendor\symfony\mime\Address.php |
+         Строка: 103
+===============
+[2022-11-30 00:48:20] Текст ошибки: An email must have a "From" or a "Sender" header. | Файл: C:\OSPanel\domains\psychologist\vendor\symfony\mime\Message.php |
+         Строка: 132
+===============
+[2022-11-30 00:50:22] Текст ошибки: compact(): Undefined variable:  | Файл: C:\OSPanel\domains\psychologist\app\controllers\FeedbackController.php |
+         Строка: 17
+===============
+[2022-11-30 01:29:10] Текст ошибки: An email must have a "From" or a "Sender" header. | Файл: C:\OSPanel\domains\psychologist\vendor\symfony\mime\Message.php |
+         Строка: 132
+===============
+[2022-11-30 07:27:25] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\psychologist\vendor\own\core\Router.php |
+         Строка: 39
+===============

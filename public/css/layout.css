@@ -739,7 +739,7 @@ section#feedback {
   justify-content: center;
   background-color: #666666;
   padding: 10rem 0;
-  margin: 7rem 0;
+  margin-top: 7rem;
 }
 section#feedback div.wrapper {
   min-width: 60%;
@@ -1017,6 +1017,7 @@ section#appointment form input, section#appointment form button {
 }
 section#appointment form input {
   flex: 1 0 27%;
+  padding-left: 1rem;
 }
 section#appointment form button {
   flex: 0 1;
@@ -1202,22 +1203,55 @@ footer .contact > div {
   background-color: rgb(4, 4, 70);
 }
 
-#details-content {
+#details-content-single, #details-content-course, #details-content-talk {
   display: flex;
   margin: 3rem;
 }
-#details-content > * {
+#details-content-single > *, #details-content-course > *, #details-content-talk > * {
   padding: 1rem;
 }
-#details-content div:first-child {
+@media screen and (max-width: 992px) {
+  #details-content-single, #details-content-course, #details-content-talk {
+    flex-direction: column;
+  }
+}
+#details-content-single div:first-child, #details-content-course div:first-child, #details-content-talk div:first-child {
   flex: 0 1 30%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: start;
   font-size: large;
 }
-#details-content div:last-child {
+@media screen and (max-width: 1200px) {
+  #details-content-single div:first-child, #details-content-course div:first-child, #details-content-talk div:first-child {
+    flex: 0 0.5 40%;
+  }
+}
+@media screen and (max-width: 992px) {
+  #details-content-single div:first-child h3, #details-content-course div:first-child h3, #details-content-talk div:first-child h3 {
+    font-size: 1.5rem;
+  }
+}
+#details-content-single div:last-child, #details-content-course div:last-child, #details-content-talk div:last-child {
   flex: 0 1 70%;
+}
+@media screen and (max-width: 1200px) {
+  #details-content-single div:last-child, #details-content-course div:last-child, #details-content-talk div:last-child {
+    flex: 0 1 60%;
+  }
+}
+
+#bodygratitude {
+  display: none;
+  justify-content: space-around;
+}
+#bodygratitude a {
+  padding: 1rem;
+}
+#bodygratitude img {
+  width: 100%;
+  height: auto;
 }
 
 /*# sourceMappingURL=layout.css.map */

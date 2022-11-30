@@ -9,6 +9,8 @@ function ready(){
     showIllustratiion(document.querySelector('.illustration'));
     addAttribute();
     switchLi(document.getElementById('switch'));
+    feedback();
+    buttongratitude(document.getElementById('buttongratitude'));
 }
 
 function toggleClassOnEvent(id, classActive, classNonActive, event) {
@@ -19,7 +21,6 @@ function toggleClassOnEvent(id, classActive, classNonActive, event) {
         elem = id;
     }
     elem.addEventListener(event, () => {
-        console.log('щелкнули по burg');
         if (!elem.classList.contains(classActive) && !elem.classList.contains(classNonActive)) {
             elem.classList.add(classActive);
             showMenu();
@@ -30,6 +31,8 @@ function toggleClassOnEvent(id, classActive, classNonActive, event) {
         showMenu();
     });
 }
+
+
 
 function toggleClass(elem, classActive, classNonActive){
     if (!elem.classList.contains(classActive) && !elem.classList.contains(classNonActive)) {
@@ -44,15 +47,21 @@ function eventHoverDelegation(container, elemSelector, overHandler, outHandler){
     if (container){
         let currentElem = null;
         container.addEventListener('pointerover', pointerover);
+        // container.addEventListener('focus', pointerover);
         container.addEventListener('pointerout', pointerout);
+        // container.addEventListener('blur', pointerout);
 
         function pointerover(e){
             if (currentElem) return;
             let target = e.target.closest(elemSelector);
             if (!target) return;
             currentElem = target;
-            // console.log('зашли на - ', currentElem);
             overHandler(currentElem);
+            let span = currentElem.querySelector('span');
+            if (span){
+                span.addEventListener('focus', overHandler(currentElem));
+                span.addEventListener('blur', outHandler(currentElem));
+            }
         }
 
         function pointerout(e){
@@ -62,20 +71,19 @@ function eventHoverDelegation(container, elemSelector, overHandler, outHandler){
                 if (relatedTarget == currentElem) return;
                 relatedTarget = relatedTarget.parentNode;
             }
-            // console.log('покинули - ', currentElem);
             outHandler(currentElem);
             currentElem = null;
         }
     }
 }
 
+
+
 function overHandler(elem){
-    // console.log('зашли на - ', elem);
     addAndDeleteClass(elem.querySelector('div'), 'myhover');
     addAndDeleteClass(elem.querySelector('span'), 'myhover');
 }
 function outHandler(elem){
-    // console.log('покинули - ', elem);
     addAndDeleteClass(elem.querySelector('div'), 'myhover');
     addAndDeleteClass(elem.querySelector('span'), 'myhover');
 }
@@ -140,13 +148,10 @@ function drawHeight(elem, progress, previousValue, nextValue) {
 function showMenu(){
     let menu = document.getElementById('menu');
     let clone = menu.cloneNode(true);
-    // clone.removeAttribute('id');
     clone.id = 'cloneMenu';
     let status = getStatusMenu(menu.parentElement.querySelector('#burg'));
     let screen = document.getElementById('screen');
     if (status){
-        // if (!screen.classList.contains('activeMenu')) screen.classList.add('activeMenu');
-        // if (screen.classList.contains('nonActiveMenu')) screen.classList.remove('nonActiveMenu');
         toggleClass(screen, 'activeMenu', 'nonActiveMenu');
         hideScroll(document.body);
         screen.prepend(clone);
@@ -155,30 +160,39 @@ function showMenu(){
             draw: changeTransform,
             duration: 200
         });
-    } else {
-        // if (screen.classList.contains('activeMenu')) screen.classList.remove('activeMenu');
-        // if (!screen.classList.contains('nonActiveMenu')) screen.classList.add('nonActiveMenu');
-        animate(document.getElementById('cloneMenu'), 0, 100, {
-            timing: timingLinear,
-            draw: changeTransform,
-            duration: 200
-        }, function (){
-            // if (screen.classList.contains('activeMenu')) screen.classList.remove('activeMenu');
-            // if (!screen.classList.contains('nonActiveMenu')) screen.classList.add('nonActiveMenu');
-            toggleClass(screen, 'activeMenu', 'nonActiveMenu');
-            hideScroll(document.body, false);
-            screen.innerHTML = '';
+        let arrA = Array.from(screen.querySelectorAll('a'));
+        console.log(arrA);
+        arrA.forEach((a)=>{
+            a.addEventListener('click', (e)=>{
+                if (status){
+                    // hideMenuAnimate(screen);
+                    document.getElementById('burg').dispatchEvent(new Event('click'));
+                }
+            });
         });
+
+    } else {
+        hideMenuAnimate(screen);
     }
 }
 
 function getStatusMenu(trigger){
-    //'active', 'noneActive'
     if (trigger.classList.contains('active')){
         return true;
     } else {
         return false;
     }
+}
+function hideMenuAnimate(screen){
+    animate(document.getElementById('cloneMenu'), 0, 100, {
+        timing: timingLinear,
+        draw: changeTransform,
+        duration: 200
+    }, function (){
+        toggleClass(screen, 'activeMenu', 'nonActiveMenu');
+        hideScroll(document.body, false);
+        screen.innerHTML = '';
+    });
 }
 
 function changeTransform(elem, progress, previousValue, nextValue){
@@ -260,6 +274,7 @@ function changeTransformY(elem, progress, previousValue, nextValue){
 }
 
 function showIllustratiion(elem){
+    if (!elem) return;
     let showed = elem.querySelector('.show');
     let hidden = elem.querySelector('.nonshow');
     let select = document.querySelector('form div.radioGroup');
@@ -275,52 +290,88 @@ function addAttribute(){
     for (let button of buttons){
         button.addEventListener('click', (e)=>{
             e.preventDefault();
+            let elemTo = document.getElementById('feedback');
+            if (elemTo) elemTo.scrollIntoView(true);
         });
     }
 }
 
+/*виджет переключения типа консультации*/
 function switchLi(ul){
     if (!ul) return;
     let arrLi = Array.from(ul.querySelectorAll('li'));
-    ul.addEventListener('click', (e)=>{
-        clickHandlerLi(e, arrLi, ul);
-        showHiddenLi(ul, arrLi);
+    arrLi.forEach((li)=>{
+        li.addEventListener('click', (e)=>{
+            showHiddenLi(ul, arrLi);
+            clickHandlerLi(e, arrLi, ul);
+        });
     });
 }
 function showHiddenLi(ul, arrLi){
     if (getComputedStyle(ul).display == 'flex') return;
     let count = 1;
     arrLi.forEach((li)=>{
-        if (getComputedStyle(li).display == 'none'){
+        if (getComputedStyle(li).display == 'none' && !li.classList.contains('showed')){
             showLi(li, count++);
+        } else if (li.classList.contains('showed')){
+            hideLi(li);
         }
     });
     count = 1;
 }
 function clickHandlerLi(e, arrLi, ul){
-    if(e.target.tagName == 'LI') {
-        if (!e.target.classList.contains('selected')){
-            arrLi.forEach((li)=>{
-                li.classList.remove('selected');
-            });
-            e.target.classList.add('selected');
-        }
+    if (!e.target.classList.contains('selected')){
+        arrLi.forEach((li)=>{
+            li.classList.remove('selected');
+            document.getElementById(`details-content-${li.dataset.id}`).style.display = 'none';
+        });
+        e.target.classList.add('selected');
+        document.getElementById(`details-content-${e.target.dataset.id}`).style.display = 'flex';
     }
-    arrLi.forEach((li)=>{
-        hideLi(li)
-    });
 }
+
 function showLi(li, index){
-    if (!li.classList.contains('showed')){
         li.classList.add('showed');
         li.style.display = 'block';
         li.style.transform = `translateY(${index * 100}%)`;
-    }
 }
 function hideLi(li){
-    if (li.classList.contains('showed')){
         li.classList.remove('showed');
         li.style.display = '';
         li.style.transform = '';
-    }
+}
+
+function buttongratitude(button){
+    button.addEventListener('click', (e)=>{
+        let innert = document.getElementById('bodygratitude').querySelectorAll('a');
+        let modalbody = document.getElementById('modalbogy');
+        for (let a of innert){
+            modalbody.append(a);
+            a.querySelector('img').style.width = '100%';
+            a.querySelector('img').style.height = 'auto';
+            a.style.padding = '1rem';
+        };
+        modalbody.style.display = 'flex';
+        modalbody.style.justifyContent = 'space-around';
+        document.getElementById('exampleModalLabel').innerHTML = 'Оставить отзыв.';
+        document.getElementById('modal').dispatchEvent(new Event('click'));
+    });
+}
+
+/*отправка письма без перезагрузки страницы*/
+function feedback(){
+    document.querySelector('body').addEventListener('click', async (e)=>{
+        if (e.target.classList.contains('send')){
+            e.preventDefault();
+            let form = e.target.closest('form');
+            let response = await fetch('feedback/fetch', {
+                method: 'POST',
+                body: new FormData(form)
+            });
+            let html = await response.text();
+            document.getElementById('modalbogy').innerHTML = html;
+            document.getElementById('exampleModalLabel').innerHTML = 'Сообщение об отправке.';
+            document.getElementById('modal').dispatchEvent(new Event('click'));
+        }
+    });
 }

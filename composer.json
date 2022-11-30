@@ -7,6 +7,7 @@
   },
   "require": {
     "gabordemooij/redbean": "dev-master",
-    "tinymce/tinymce": "^6.3"
+    "tinymce/tinymce": "^6.3",
+    "symfony/mailer": "^5.4"
   }
 }

@@ -555,7 +555,8 @@ section#feedback
   justify-content: center
   background-color: #666666
   padding: 10rem 0
-  margin: 7rem 0
+  //margin: 7rem 0
+  margin-top: 7rem
   div.wrapper
     min-width: 60%
     //min-height: 95vh
@@ -777,6 +778,7 @@ section#appointment
       border-radius: 0.5rem
     input
       flex: 1 0 27%
+      padding-left: 1rem
     button
       flex: 0 1
       font-size: 1rem
@@ -906,28 +908,41 @@ footer
     .selected
       font-weight: bold
   .mainbutton.revers
-    //height: 3rem
-    //min-width: 15rem
-    //border-radius: 1.5rem
     background-color: white
     color: rgb(4, 4, 70)
-    //font-size: 1.5rem
-    //font-weight: bold
-    //cursor: pointer
-    //transition: all 200ms linear
   .mainbutton.revers:hover
     color: white
     background-color: rgb(4, 4, 70)
-#details-content
+#details-content-single, #details-content-course, #details-content-talk
   display: flex
   margin: 3rem
   >*
     padding: 1rem
+  @media screen and (max-width: 992px)
+    flex-direction: column
   div:first-child
     flex: 0 1 30%
     display: flex
     flex-direction: column
     justify-content: space-between
+    align-items: start
     font-size: large
+    @media screen and (max-width: 1200px)
+      flex: 0 0.5 40%
+    @media screen and (max-width: 992px)
+      h3
+        font-size: 1.5rem
   div:last-child
     flex: 0 1 70%
+    @media screen and (max-width: 1200px)
+      flex: 0 1 60%
+
+#bodygratitude
+  display: none
+  //display: flex
+  justify-content: space-around
+  a
+    padding: 1rem
+  img
+    width: 100%
+    height: auto

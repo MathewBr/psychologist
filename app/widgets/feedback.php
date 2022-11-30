@@ -2,7 +2,7 @@
     <div class="wrapper">
         <h4>Отправьте заявку, и я вам перезвоню<br> для согласования даты и времени проведения сессии.</h4>
         <div class="feedback">
-            <form>
+            <form action="feedback" method="post" class="needs-validation">
                 <div id="session">
                     <h5>Пожалуйста, выберите тип сессии:</h5>
                     <div class="radioGroup">
@@ -18,21 +18,22 @@
                 </div>
                 <div class="group">
                     <label for="email">Ваш Email</label>
-                    <input id="email" type="email" name="email" placeholder="mail@example.com">
+                    <input id="email" type="email" name="email" placeholder="mail@example.com" class="form-control" required>
+<!--                    <div class="invalid-feedback">Please choose a username.</div>-->
                 </div>
                 <div class="group">
                     <label for="mane">Ваше имя</label>
-                    <input id="mane" type="text" name="mane" placeholder="Олег Петров">
+                    <input id="mane" type="text" name="name" placeholder="Олег Петров" class="form-control" required>
                 </div>
                 <div class="group">
                     <label for="phone">Ваш телефон</label>
-                    <input id="phone" type="tel" name="phone" placeholder="+7(999)999-99-99">
+                    <input class="phone" id="phone" type="text" name="phone" placeholder="+7(999)999-99-99" class="form-control" required>
                 </div>
                 <div class="group">
                     <label for="topic">Тема консультации</label>
                     <textarea id="topic" name="topic" placeholder="Тема"></textarea>
                 </div>
-                <button class="mainbutton">Отправить</button>
+                <button class="mainbutton send">Отправить</button>
             </form>
             <div class="illustration">
                 <img class="show" src="img/standardform.png">

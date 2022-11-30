@@ -41,27 +41,27 @@
     <p>Вам стоит обратиться ко мне, если у Вас есть желание:</p>
     <div id="gallery">
         <div id="lotus" class="mycontainer">
-            <div class="gallery"><span></span></div><!--<img src="img/lotus.png" alt="">-->
+            <div class="gallery"><span tabindex="0"></span></div><!--<img src="img/lotus.png" alt="">-->
             <p>Просто с кем-то поговорить, о том, что беспокоит. Рассказать, высказаться. Часто, этого бывает достаточно, для того, чтобы на душе стало легче, а в жизни произошли желаемые изменения</p>
         </div>
         <div id="sky" class="mycontainer">
-            <div class="gallery"><span></span></div><!--<img src="img/sky.png" alt="">-->
+            <div class="gallery"><span tabindex="0"></span></div><!--<img src="img/sky.png" alt="">-->
             <p>Обрести душевный мир</p>
         </div>
         <div id="building" class="mycontainer">
-            <div class="gallery"><span></span></div><!--<img src="img/building.png" alt="">-->
+            <div class="gallery"><span tabindex="0"></span></div><!--<img src="img/building.png" alt="">-->
             <p>Научиться «отпускать» ситуацию</p>
         </div>
         <div id="lilies" class="mycontainer">
-            <div class="gallery"><span></span></div><!--<img src="img/lilies.png" alt="">-->
+            <div class="gallery"><span tabindex="0"></span></div><!--<img src="img/lilies.png" alt="">-->
             <p>Перестать быть жертвой обстоятельств; Понять "Почему всё так со мною происходит?", распрощаться с этой ролью</p>
         </div>
         <div id="sunflower" class="mycontainer">
-            <div class="gallery"><span></span></div><!--<img src="img/sunflower.png" alt="">-->
+            <div class="gallery"><span tabindex="0"></span></div><!--<img src="img/sunflower.png" alt="">-->
             <p>Выявить причины, которые мешают достигать успеха в карьере, личной жизни и отрицательно влияют на здоровье</p>
         </div>
         <div id="leaves" class="mycontainer">
-            <div class="gallery"><span></span></div><!--<img src="img/leaves.jpg" alt="">-->
+            <div class="gallery"><span tabindex="0"></span></div><!--<img src="img/leaves.jpg" alt="">-->
             <p>Вспомнить или заново открыть свои таланты</p>
         </div>
     </div>
@@ -111,7 +111,7 @@
         Мы с Вами определим круг задач и количество<br> необходимых сессий. (до 30 минут)</p>
     <div class="flexContainer">
         <div class="mycard">
-            <a href="details?type=standart">
+            <a href="details?type=single">
                 <div id="standard" class="gallery"></div>
                 <div class="wrapper">
                     <div class="introduce">
@@ -214,7 +214,11 @@
             </div>
             <?php //require_once WWW . '/carousel/carousel.php';?>
         </div>
-        <button class="mainbutton">Оставить отзыв</button>
+        <button id="buttongratitude" class="mainbutton">Оставить отзыв</button>
+        <div id="bodygratitude">
+            <a href="https://tgtg.su/Iramir14"><img src="img/telegram.png"></a>
+            <a href="https://skobelkin.ru/whatsapp/79104566283?text=Доброго+времени+суток"><img src="img/whatsapp.png"></a>
+        </div>
     </div>
 </section>
 
@@ -243,11 +247,11 @@
 <section id="appointment">
     <h2>Записаться на приём</h2>
     <p>Заполните форму для записи на бесплатную консультацию</p>
-    <form action="">
-        <input type="text" placeholder="Ваш телефон">
-        <input type="text" placeholder="Ваше имя">
-        <input type="text" placeholder="Ваши проблемы">
-        <button class="mainbutton">Отправить</button>
+    <form action="feedback" method="post">
+        <input class="phone" type="text" name="phone" placeholder="Ваш телефон" class="form-control" required>
+        <input type="text" name="name" placeholder="Ваше имя" class="form-control" required>
+        <input type="text" name="topic" placeholder="Повод обращения" class="form-control" required>
+        <button class="mainbutton send">Отправить</button>
     </form>
     <div class="filter"></div>
 </section>
